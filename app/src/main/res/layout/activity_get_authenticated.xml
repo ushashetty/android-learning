@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.usha.api_demo.get_authenticated">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_auth"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="&quot;login&quot;: &quot;octocat&quot;,
+        &quot;id&quot;: 1,
+        &quot;avatar_url&quot;: &quot;https://github.com/images/error/octocat_happy.gif&quot;,
+        &quot;gravatar_id&quot;: &quot;&quot;,
+        &quot;url&quot;: &quot;https://api.github.com/users/octocat&quot;
+        &quot;html_url&quot;: &quot;https://github.com/octocat&quot;,
+        &quot;followers_url&quot;: &quot;https://api.github.com/users/octocat/followers&quot;,
+        &quot;following_url&quot;: &quot;https://api.github.com/users/octocat/following{/other_user}&quot;,
+        &quot;gists_url&quot;: &quot;https://api.github.com/users/octocat/gists{/gist_id}&quot;,
+        &quot;starred_url&quot;: &quot;https://api.github.com/users/octocat/starred{/owner}{/repo}&quot;,
+        &quot;subscriptions_url&quot;: &quot;https://api.github.com/users/octocat/subscriptions&quot;,
+        &quot;organizations_url&quot;: &quot;https://api.github.com/users/octocat/orgs&quot;,
+        &quot;repos_url&quot;: &quot;https://api.github.com/users/octocat/repos&quot;,
+        &quot;events_url&quot;: &quot;https://api.github.com/users/octocat/events{/privacy}&quot;,
+        &quot;received_events_url&quot;: &quot;https://api.github.com/users/octocat/received_events&quot;,
+        &quot;type&quot;: &quot;User&quot;,
+        &quot;site_admin&quot;: false,
+        &quot;name&quot;: &quot;monalisa octocat&quot;,
+        &quot;company&quot;: &quot;GitHub&quot;,
+        &quot;blog&quot;: &quot;https://github.com/blog&quot;,
+        &quot;location&quot;: &quot;San Francisco&quot;,
+        &quot;email&quot;: &quot;octocat@github.com&quot;,
+        &quot;hireable&quot;: false,   &quot;bio&quot;: &quot;There once was...&quot;,
+        &quot;public_repos&quot;: 2,
+        &quot;public_gists&quot;: 1,
+        &quot;followers&quot;: 20,
+        &quot;following&quot;: 0,
+        &quot;created_at&quot;: &quot;2008-01-14T04:33:35Z&quot;,
+        &quot;updated_at&quot;: &quot;2008-01-14T04:33:35Z&quot;,
+        &quot;total_private_repos&quot;: 100,
+        &quot;owned_private_repos&quot;: 100,
+        &quot;private_gists&quot;: 81,
+        &quot;disk_usage&quot;: 10000,
+        &quot;collaborators&quot;: 8,
+        &quot;plan&quot;:
+        {
+         &quot;name&quot;: &quot;Medium&quot;,
+         &quot;space&quot;: 400,
+         &quot;private_repos&quot;: 20,
+         &quot;collaborators&quot;: 0
+
+        }" />
+</RelativeLayout>

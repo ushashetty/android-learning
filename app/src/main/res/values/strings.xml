@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">api_demo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_get_single">get_single</string>
+    <string name="title_activity_get_authenticated">get_authenticated</string>
+    <string name="title_activity_update_user">Update_user</string>
+    <string name="title_activity_all_user">all_user</string>
+</resources>
